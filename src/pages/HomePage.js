@@ -1,7 +1,12 @@
+import { FormCurrency } from "../components/FormCurrency/FormCurrency";
+
 const HomePage = () => {
   return (
-    <div>HomePage</div>
-  )
-}
+    <div>
+      <div>HomePage</div>
+      <FormCurrency />
+    </div>
+  );
+};
 
-export default HomePage
+export default HomePage;
